@@ -1,0 +1,1 @@
+/home/mitch/exercism/cpp/bob/CMakeFiles/bob.dir

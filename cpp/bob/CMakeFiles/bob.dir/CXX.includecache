@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/bob/bob.h
+algorithm
+-
+boost/algorithm/string.hpp
+-
+string
+-
+
+/home/mitch/exercism/cpp/bob/bob_test.cpp
+bob.h
+/home/mitch/exercism/cpp/bob/bob.h
+boost/test/unit_test.hpp
+-
+

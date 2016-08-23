@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/food-chain/food_chain.h
+string
+-
+utility
+-
+vector
+-
+
+/home/mitch/exercism/cpp/food-chain/food_chain_test.cpp
+food_chain.h
+/home/mitch/exercism/cpp/food-chain/food_chain.h
+boost/test/unit_test.hpp
+-
+

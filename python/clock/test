@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# run the tests
+
+python clock_test.py >&1

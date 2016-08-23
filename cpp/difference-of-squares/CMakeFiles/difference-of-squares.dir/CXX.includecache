@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/difference-of-squares/difference_of_squares.h
+functional
+-
+
+/home/mitch/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
+difference_of_squares.h
+/home/mitch/exercism/cpp/difference-of-squares/difference_of_squares.h
+boost/test/unit_test.hpp
+-
+

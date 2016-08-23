@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/nucleotide-count/nucleotide_count.h
+stdexcept
+-
+map
+-
+string
+-
+
+/home/mitch/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp
+nucleotide_count.h
+/home/mitch/exercism/cpp/nucleotide-count/nucleotide_count.h
+boost/test/unit_test.hpp
+-
+stdexcept
+-
+require_equal_containers.h
+/home/mitch/exercism/cpp/nucleotide-count/require_equal_containers.h
+
+/home/mitch/exercism/cpp/nucleotide-count/require_equal_containers.h
+utility
+-
+vector
+-
+boost/version.hpp
+-
+

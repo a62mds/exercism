@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/anagram/anagram.h
+boost/algorithm/string.hpp
+-
+map
+-
+string
+-
+vector
+-
+
+/home/mitch/exercism/cpp/anagram/anagram_test.cpp
+anagram.h
+/home/mitch/exercism/cpp/anagram/anagram.h
+boost/test/unit_test.hpp
+-
+

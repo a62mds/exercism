@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mitch/exercism/cpp/word-count/require_equal_containers.h
+utility
+-
+vector
+-
+boost/version.hpp
+-
+
+/home/mitch/exercism/cpp/word-count/word_count.h
+algorithm
+-
+boost/algorithm/string.hpp
+-
+cctype
+-
+map
+-
+string
+-
+vector
+-
+
+/home/mitch/exercism/cpp/word-count/word_count_test.cpp
+word_count.h
+/home/mitch/exercism/cpp/word-count/word_count.h
+boost/test/unit_test.hpp
+-
+map
+-
+require_equal_containers.h
+/home/mitch/exercism/cpp/word-count/require_equal_containers.h
+

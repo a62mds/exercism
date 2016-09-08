@@ -22,7 +22,6 @@ BOOST_AUTO_TEST_CASE(sum_to_100)
     BOOST_REQUIRE_EQUAL(2318, sum_of_multiples::to({3, 5}, 100));
 }
 
-#if defined(EXERCISM_RUN_ALL_TESTS)
 BOOST_AUTO_TEST_CASE(sum_to_1000)
 {
     BOOST_REQUIRE_EQUAL(233168, sum_of_multiples::to({3, 5}, 1000));
@@ -62,4 +61,3 @@ BOOST_AUTO_TEST_CASE(sum_of_empty_list)
 {
     BOOST_REQUIRE_EQUAL(0, sum_of_multiples::to({}, 10000));
 }
-#endif

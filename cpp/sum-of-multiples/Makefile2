@@ -1,0 +1,12 @@
+#####
+#
+#####
+
+all: run
+
+compile:
+	g++ -std=c++11 -o cust_tests sum_of_multiples_cust_test.cpp -I .
+
+run: compile
+	@if ! [ -x cust_tests ]; then chmod +x cust_tests && ./cust_tests; \
+	else ./cust_tests; fi

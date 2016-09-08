@@ -1,0 +1,25 @@
+####
+# Exercism .gitignore
+#===
+# C++
+#---
+# Object files
+*.o
+# CMake files and directories
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+#===
+# Python
+#---
+# Compiled python modules
+*.pyc
+#===
+# Scala
+#---
+# Project and target directories
+project/
+target/
+# .class files
+*.class
+## M. Sullivan. September, 2016

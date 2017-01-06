@@ -6,7 +6,7 @@ letter_groups = {'aeioulnrst' : 1,
                  'jx' : 8,
                  'qz' : 10}
 
-pts = {ltr : pts for grp, pts in letter_groups.iteritems() for ltr in grp}
+pts = {ltr : numpts for grp, numpts in letter_groups.iteritems() for ltr in grp}
 
 def score(word):
     has_only_alpha = lambda w: all(l.isalpha() for l in w)

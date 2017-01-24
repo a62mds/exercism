@@ -123,60 +123,6 @@ meetup/fast:
 	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/build
 .PHONY : meetup/fast
 
-meetup.o: meetup.cpp.o
-
-.PHONY : meetup.o
-
-# target to build an object file
-meetup.cpp.o:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup.cpp.o
-.PHONY : meetup.cpp.o
-
-meetup.i: meetup.cpp.i
-
-.PHONY : meetup.i
-
-# target to preprocess a source file
-meetup.cpp.i:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup.cpp.i
-.PHONY : meetup.cpp.i
-
-meetup.s: meetup.cpp.s
-
-.PHONY : meetup.s
-
-# target to generate assembly for a file
-meetup.cpp.s:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup.cpp.s
-.PHONY : meetup.cpp.s
-
-meetup_test.o: meetup_test.cpp.o
-
-.PHONY : meetup_test.o
-
-# target to build an object file
-meetup_test.cpp.o:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup_test.cpp.o
-.PHONY : meetup_test.cpp.o
-
-meetup_test.i: meetup_test.cpp.i
-
-.PHONY : meetup_test.i
-
-# target to preprocess a source file
-meetup_test.cpp.i:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup_test.cpp.i
-.PHONY : meetup_test.cpp.i
-
-meetup_test.s: meetup_test.cpp.s
-
-.PHONY : meetup_test.s
-
-# target to generate assembly for a file
-meetup_test.cpp.s:
-	$(MAKE) -f CMakeFiles/meetup.dir/build.make CMakeFiles/meetup.dir/meetup_test.cpp.s
-.PHONY : meetup_test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +132,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... meetup"
-	@echo "... meetup.o"
-	@echo "... meetup.i"
-	@echo "... meetup.s"
-	@echo "... meetup_test.o"
-	@echo "... meetup_test.i"
-	@echo "... meetup_test.s"
 .PHONY : help
 
 

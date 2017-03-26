@@ -18,10 +18,12 @@ class AllYourBaseTests(unittest.TestCase):
         dgts = range(10)
         self.assertEqual(sum(dgts), foldl(add, dgts, 0))
 
+    @unittest.skip('skip')
     def test_to_base10(self):
         self.assertEqual(5, to_base10(2, [1, 0, 1]))
         self.assertEqual(36, to_base10(3, [1, 1, 0, 0]))
 
+    @unittest.skip('skip')
     def test_fr_base10(self):
         base = 3
         dgts = [1, 1, 0, 1, 0]

@@ -65,3 +65,11 @@ def calculate(word_prob):
     Parses a mathematical word problem and returns the answer.
     """
     return recursive_eval(verify_validity(trans_ops(rem_qmark(rem_intro(word_prob)))))
+
+
+if __name__ == '__main__':
+    while True:
+        inp = raw_input('Ask a math question: ')
+        if inp == 'q':
+            break
+        print(calculate(inp))

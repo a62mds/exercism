@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import unittest
 
 from zebra_puzzle import solution

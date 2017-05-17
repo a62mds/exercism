@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import unittest
 
 from binary_search import binary_search

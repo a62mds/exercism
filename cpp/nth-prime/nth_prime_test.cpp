@@ -7,7 +7,6 @@ TEST_CASE("first")
     REQUIRE(2 == nth_prime::nth(1));
 }
 
-#if defined(EXERCISM_RUN_ALL_TESTS)
 TEST_CASE("second")
 {
     REQUIRE(3 == nth_prime::nth(2));
@@ -27,4 +26,5 @@ TEST_CASE("weird_case")
 {
     REQUIRE_THROWS_AS(nth_prime::nth(0), std::domain_error);
 }
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif

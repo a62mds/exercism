@@ -30,4 +30,7 @@ project/
 target/
 # .class files
 *.class
-## M. Sullivan. September, 2016
+
+.vscode/
+.exercism/
+shell/

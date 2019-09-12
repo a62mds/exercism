@@ -4,8 +4,8 @@
 #include<vector>
 
 namespace nth_prime {
-    int nth(int n);
-    bool is_prime(int n);
+    unsigned nth(unsigned n);
+    bool is_prime(unsigned n);
 }  // namespace nth_prime
 
 #endif // NTH_PRIME_H
